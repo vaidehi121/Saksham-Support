@@ -203,6 +203,7 @@
             color: #00271e; /* Requested Light Green Color */
             text-transform: capitalize;
         }
+        .footer-brand-text:hover { color: var(--accent); transform: translateY(-3px); transition: 0.3s;  }
 
         .social-icons { 
             display: flex; gap: 15px; margin-top: 20px;
@@ -236,7 +237,7 @@
             display: flex; align-items: center; gap: 8px;
         }
         .footer-links li:hover {
-            color: var(--light-green-text);
+            color: var(--accent);
             transform: translateX(5px);
         }
 
